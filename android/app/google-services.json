@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "740608540065",
+    "project_id": "fir-weva",
+    "storage_bucket": "fir-weva.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740608540065:android:a9a21a6ab59e526a179fe0",
+        "android_client_info": {
+          "package_name": "com.example.app_demo_weva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740608540065-2tgdnt4s2nhrs246bc26opphl289r7l6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app_demo_weva",
+            "certificate_hash": "eddbea30aab3652f3ff375886a729de55924070b"
+          }
+        },
+        {
+          "client_id": "740608540065-j4d2i1bhg3hm6tvojpnc6cave5qihvtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCFh-cx02_ui_qrTVHrB4Xo4hr1xr4kHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740608540065-j4d2i1bhg3hm6tvojpnc6cave5qihvtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

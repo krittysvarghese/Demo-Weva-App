@@ -1,0 +1,55 @@
+{"templates":
+    [
+        {
+            "image":"assets/images/image1.jpeg",
+            "name":"Start from Scratch",
+            "description":"Create a video from scratch to tell your story"
+        },
+        {
+            "image":"assets/images/image2.jpeg",
+            "name":"Product Launch",
+            "description":"Introduce a product or service with a video"
+        },
+        {
+            "image":"assets/images/image3.jpeg",
+            "name":"test",
+            "description":"asdasdsadsadsa"
+        },
+        {
+            "image":"assets/images/image4.jpeg",
+            "name":"test",
+            "description":"asdasdsadsadsa"
+        },
+        {
+            "image":"assets/images/image5.jpeg",
+            "name":"test",
+            "description":"asdasdsadsadsa"
+        },
+        {
+            "image":"assets/images/image6.jpg",
+            "name":"test",
+            "description":"asdasdsadsadsa"
+        },
+        {
+            "image":"assets/images/image7.jpeg",
+            "name":"test",
+            "description":"asdasdsadsadsa"
+        },
+        {
+            "image":"assets/images/image8.jpeg",
+            "name":"test",
+            "description":"asdasdsadsadsa"
+        },
+        {
+            "image":"assets/images/image9.jpeg",
+            "name":"test",
+            "description":"asdasdsadsadsa"
+        },
+        {
+            "image":"assets/images/image10.jpeg",
+            "name":"test",
+            "description":"asdasdsadsadsa"
+        }
+
+    ]
+}
