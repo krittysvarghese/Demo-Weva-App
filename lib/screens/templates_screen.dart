@@ -67,22 +67,27 @@ class _TemplatesScreenState extends State<TemplatesScreen> {
   }
 }
 
-GridView _albumGridView(String data, BuildContext context) {
+StaggeredGridView _albumGridView(String data, BuildContext context) {
   var size = MediaQuery.of(context).size;
 
   /*24 is for notification bar on Android*/
-  final double itemHeight = (size.height - kToolbarHeight - 24) / 2;
+  final double itemHeight = (size.height - kToolbarHeight) / 1;
+  //final double itemHeight = (size.height - kToolbarHeight - 24) / 2;
   final double itemWidth = size.width / 2;
 
   var list = jsonDecode(data)['templates'] as List;
   List<Template> templatesList = list.map((templates) => Template.fromJson(templates)).toList();
-  return GridView.builder(
-    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2, childAspectRatio: (itemWidth / itemHeight),),
+  return StaggeredGridView.countBuilder(
+    crossAxisCount: 4,
     itemCount: list.length,
     padding: EdgeInsets.all(2.0),
     itemBuilder: (BuildContext context, int index) {
       return _tile(templatesList[index].name, templatesList[index].description, templatesList[index].image);
     },
+    staggeredTileBuilder: (_) => StaggeredTile.fit(2),
+    mainAxisSpacing: 4.0,
+    crossAxisSpacing: 4.0,
+
   );
 }
 
